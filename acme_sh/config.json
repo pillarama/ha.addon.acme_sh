@@ -19,7 +19,7 @@
   },
   "schema": {
     "account": "str",
-    "server": "list(""|letsencrypt)?",
+    "server": "list(null|letsencrypt)?",
     "domains": ["str"],
     "certfile": "str",
     "keyfile": "str",
