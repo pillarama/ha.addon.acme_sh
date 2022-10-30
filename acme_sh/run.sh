@@ -17,17 +17,15 @@ for domain in $DOMAINS; do
     DOMAIN_ARR+=(--domain "$domain")
 done
 
-SERVER_ARG=""
 if [ -n "$SERVER" ]; then
-    SERVER_ARG="--server $SERVER"
+    /root/.acme.sh/acme.sh --set-default-ca --server ${ACCOUNT}$SERVER
 fi
 
-/root/.acme.sh/acme.sh --register-account -m ${ACCOUNT} $SERVER_ARG
+/root/.acme.sh/acme.sh --register-account -m ${ACCOUNT}
 
 /root/.acme.sh/acme.sh --issue "${DOMAIN_ARR[@]}" \
 
---dns "$DNS_PROVIDER" \
-$SERVER_ARG
+--dns "$DNS_PROVIDER"
 
 /root/.acme.sh/acme.sh --install-cert "${DOMAIN_ARR[@]}" \
 --fullchain-file "/ssl/${CERTFILE}" \
