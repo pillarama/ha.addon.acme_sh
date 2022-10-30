@@ -28,7 +28,7 @@ schema:
   server:
     options:
     - label: Default
-      value:
+      value: null
     - label: Let's Encrypt
       value: letsencrypt
     - label: Zero SSL
