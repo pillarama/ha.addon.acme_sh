@@ -19,7 +19,24 @@
   },
   "schema": {
     "account": "str",
-    "server": "list(|letsencrypt|zerossl|||)?",
+    "server": {
+      "options": [
+        {
+          "label": "Default",
+          "value": null
+        },
+        {
+          "label": "Let's Encrypt",
+          "value": "letsencrypt"
+        },
+        {
+          "label": "Zero SSL",
+          "value": "zerossl"
+        }
+      ],
+      "mode": "dropdown"
+    }
+    
     "domains": ["str"],
     "certfile": "str",
     "keyfile": "str",
