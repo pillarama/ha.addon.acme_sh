@@ -26,7 +26,7 @@ options:
   dns: {}
 schema:
   account: str
-  server:
+  server: /BAH!! I give up....this seems like it should work to me...
     options:
     - label: Default
       value: ""
@@ -34,6 +34,7 @@ schema:
       value: letsencrypt
     - label: Zero SSL
       value: zerossl
+     mode: dropdown
   domains:
   - str
   certfile: str
