@@ -1,6 +1,6 @@
 {
   "name": "ACME.sh Certs (Pillarama)",
-  "version": "2.0.3cp12",
+  "version": "2.0.3cp13",
   "slug": "acme_sh",
   "description": "Manage certificates with ACME.sh",
   "url": "https://github.com/pillarama/ha_addon_acme_sh",
