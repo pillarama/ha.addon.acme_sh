@@ -1,0 +1,44 @@
+name: ACME.sh Certs (Pillarama)
+version: 2.0.3cp13
+slug: acme_sh
+description: Manage certificates with ACME.sh
+url: https://github.com/pillarama/ha_addon_acme_sh
+arch:
+- armhf
+- armv7
+- aarch64
+- amd64
+- i386
+startup: once
+boot: manual
+init: false
+map:
+- ssl:rw
+options:
+  account: str
+  server:
+  -
+  domains:
+  -
+  certfile: fullchain.pem
+  keyfile: privkey.pem
+  dns: {}
+schema:
+  account: str
+  server:
+    options:
+    - label: Default
+      value:
+    - label: Let's Encrypt
+      value: letsencrypt
+    - label: Zero SSL
+      value: zerossl
+    mode: dropdown
+  domains:
+  - str
+  certfile: str
+  keyfile: str
+  dns:
+    provider: str
+    env:
+    - str
