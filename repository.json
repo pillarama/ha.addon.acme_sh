@@ -1,5 +1,5 @@
 {
-  "name": "Home Assistant ACME.sh Certs",
+  "name": "Home Assistant ACME.sh Certs (Pillarama)",
   "url": "https://github.com/wernerhp/ha_addon_acme_sh",
   "maintainer": "Werner Pieterson <wernerhp@gmail.com>"
 }
