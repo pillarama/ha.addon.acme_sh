@@ -17,11 +17,12 @@ for domain in $DOMAINS; do
     DOMAIN_ARR+=(--domain "$domain")
 done
 
-if [ -n "$SERVER" ]; then
-    /root/.acme.sh/acme.sh --set-default-ca --server ${ACCOUNT}$SERVER
-fi
 
 /root/.acme.sh/acme.sh --register-account -m ${ACCOUNT}
+
+if [ -n "$SERVER" ]; then
+    /root/.acme.sh/acme.sh --set-default-ca --server ${SERVER}
+fi
 
 /root/.acme.sh/acme.sh --issue "${DOMAIN_ARR[@]}" \
 
