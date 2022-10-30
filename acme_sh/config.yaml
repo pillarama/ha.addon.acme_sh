@@ -1,3 +1,4 @@
+---
 name: ACME.sh Certs (Pillarama)
 version: 2.0.3cp13
 slug: acme_sh
@@ -26,8 +27,14 @@ options:
 schema:
   account: str
   server:
-  - default
-  - letsencrypt
+    options:
+    - label: Default
+      value: ""
+    - label: Lets Encrypt
+      value: letsencrypt
+    - label: Zero SSL
+      value: zerossl
+    mode: dropdown
   domains:
   - str
   certfile: str
