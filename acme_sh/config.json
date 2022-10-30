@@ -1,9 +1,9 @@
 {
   "name": "ACME.sh Certs",
-  "version": "2.0.3cp1",
+  "version": "2.0.3cp2",
   "slug": "acme_sh",
   "description": "Manage certificates with ACME.sh",
-  "url": "https://github.com/wernerhp/ha_addon_acme_sh",
+  "url": "https://github.com/pillarama/ha_addon_acme_sh",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "startup": "once",
   "boot": "manual",
