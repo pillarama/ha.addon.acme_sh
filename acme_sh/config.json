@@ -1,5 +1,5 @@
 {
-  "name": "ACME.sh Certs",
+  "name": "ACME.sh Certs (Pillarama)",
   "version": "2.0.3cp5",
   "slug": "acme_sh",
   "description": "Manage certificates with ACME.sh",
