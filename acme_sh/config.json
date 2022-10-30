@@ -1,6 +1,6 @@
 {
   "name": "ACME.sh Certs (Pillarama)",
-  "version": "2.0.3cp9",
+  "version": "2.0.3cp10",
   "slug": "acme_sh",
   "description": "Manage certificates with ACME.sh",
   "url": "https://github.com/pillarama/ha_addon_acme_sh",
@@ -19,7 +19,7 @@
   },
   "schema": {
     "account": "str",
-    "server": "list(|letsencrypt:LetsEncrypt|ZeroSSL:zerossl)?",
+    "server": "list(|letsencrypt|zerossl|bogus1|bogus2|bogus3|bogus4|bogus5)?",
     "domains": ["str"],
     "certfile": "str",
     "keyfile": "str",
