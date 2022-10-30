@@ -36,7 +36,6 @@
       ],
       "mode": "dropdown"
     },
-    
     "domains": ["str"],
     "certfile": "str",
     "keyfile": "str",
