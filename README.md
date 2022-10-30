@@ -1,5 +1,5 @@
 # Home Assistant Add-on: ACME.sh (Pillarama)
-This is a fork of https://github.com/wernerhp/ha_addon_acme_sh adding just some customisations. Please direct all coffees to Werner for his hard work.
+This is a fork of https://github.com/wernerhp/ha_addon_acme_sh just adding some customisations. Please direct all coffees to Werner for his hard work.
 
 <a href="https://www.buymeacoffee.com/wernerhp" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
 
