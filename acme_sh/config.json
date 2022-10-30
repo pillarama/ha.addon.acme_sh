@@ -35,7 +35,7 @@
         }
       ],
       "mode": "dropdown"
-    }
+    },
     
     "domains": ["str"],
     "certfile": "str",
