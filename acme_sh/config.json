@@ -1,6 +1,6 @@
 {
   "name": "ACME.sh Certs",
-  "version": "2.0.3cp",
+  "version": "2.0.3cp1",
   "slug": "acme_sh",
   "description": "Manage certificates with ACME.sh",
   "url": "https://github.com/wernerhp/ha_addon_acme_sh",
@@ -11,7 +11,7 @@
   "map": ["ssl:rw"],
   "options": {
     "account": "str",
-    "server": ["", "letsencrypt"],
+    "server": ["letsencrypt"],
     "domains": [null],
     "certfile": "fullchain.pem",
     "keyfile": "privkey.pem",
