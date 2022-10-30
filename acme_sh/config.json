@@ -11,9 +11,7 @@
   "map": ["ssl:rw"],
   "options": {
     "account": "str",
-    "server": 
-       - default: [null]
-       - LetsEncrypt: ["letsencrypt"]
+    "server": ["", "letsencrypt"],
     "domains": [null],
     "certfile": "fullchain.pem",
     "keyfile": "privkey.pem",
