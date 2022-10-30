@@ -33,7 +33,6 @@ schema:
       value: letsencrypt
     - label: Zero SSL
       value: zerossl
-    mode: dropdown
   domains:
   - str
   certfile: str
