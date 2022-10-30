@@ -26,9 +26,8 @@ options:
 schema:
   account: str
   server:
-    options:
-    - default
-    - letsencrypt
+  - default
+  - letsencrypt
   domains:
   - str
   certfile: str
