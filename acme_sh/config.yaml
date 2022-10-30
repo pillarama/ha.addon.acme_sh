@@ -27,12 +27,8 @@ schema:
   account: str
   server:
     options:
-    - label: Default
-      value: null
-    - label: Let's Encrypt
-      value: letsencrypt
-    - label: Zero SSL
-      value: zerossl
+    - default
+    - letsencrypt
   domains:
   - str
   certfile: str
